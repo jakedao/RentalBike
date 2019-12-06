@@ -1,0 +1,29 @@
+dependencies: \
+  /Volumes/Stuffs/RentalBike/node_modules/react-native/Libraries/TypeSafety/RCTConvertHelpers.mm \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Target\ Support\ Files/RCTTypeSafety/RCTTypeSafety-prefix.pch \
+  /Volumes/Stuffs/RentalBike/node_modules/react-native/Libraries/TypeSafety/RCTConvertHelpers.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyVector.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyIterator.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Folly/folly/Optional.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Folly/folly/Portability.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Folly/folly/portability/Config.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Folly/folly/CPortability.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Folly/folly/Traits.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Folly/folly/Utility.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Folly/folly/lang/Exception.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Folly/folly/CppAttributes.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTLog.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h

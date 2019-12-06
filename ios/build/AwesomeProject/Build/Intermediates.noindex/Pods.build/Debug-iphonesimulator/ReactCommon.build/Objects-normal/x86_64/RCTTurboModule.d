@@ -1,0 +1,45 @@
+dependencies: \
+  /Volumes/Stuffs/RentalBike/node_modules/react-native/ReactCommon/turbomodule/core/platform/ios/RCTTurboModule.mm \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Target\ Support\ Files/ReactCommon/ReactCommon-prefix.pch \
+  /Volumes/Stuffs/RentalBike/node_modules/react-native/ReactCommon/turbomodule/core/platform/ios/RCTTurboModule.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTModuleMethod.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTBridgeMethod.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTNullability.h \
+  /Volumes/Stuffs/RentalBike/node_modules/react-native/ReactCommon/jscallinvoker/ReactCommon/JSCallInvoker.h \
+  /Volumes/Stuffs/RentalBike/node_modules/react-native/ReactCommon/turbomodule/core/TurboModule.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-jsi/jsi/jsi.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-jsi/jsi/jsi-inl.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-cxxreact/cxxreact/MessageQueueThread.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTLog.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTCxxConvert.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Headers/Public/React-Core/React/RCTManagedPointer.h \
+  /Volumes/Stuffs/RentalBike/node_modules/react-native/ReactCommon/turbomodule/core/LongLivedObject.h \
+  /Volumes/Stuffs/RentalBike/node_modules/react-native/ReactCommon/turbomodule/core/TurboModuleUtils.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Folly/folly/Optional.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Folly/folly/Portability.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Folly/folly/portability/Config.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Folly/folly/CPortability.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Folly/folly/Traits.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Folly/folly/Utility.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Folly/folly/lang/Exception.h \
+  /Volumes/Stuffs/RentalBike/ios/Pods/Folly/folly/CppAttributes.h
