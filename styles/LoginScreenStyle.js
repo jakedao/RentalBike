@@ -19,6 +19,7 @@ const LoginScreenStyle = StyleSheet.create({
         flex:4,
         justifyContent: 'center',
         alignItems: 'center',
+
     },
 });
 

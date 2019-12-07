@@ -1,5 +1,6 @@
 import {StyleSheet} from 'react-native';
-import { Height, Padding } from '../css/AppStyleConfig';
+
+import { Height, Padding, Colors } from '../css/AppStyleConfig';
 
 const TextAreaStyle = StyleSheet.create({
     container: {
@@ -10,6 +11,7 @@ const TextAreaStyle = StyleSheet.create({
     textArea: {
         height: Height.textHeight,
         padding: Padding.Small,
+        backgroundColor: 'rgba(225,225,225,0.5)'
     }
 });
 
