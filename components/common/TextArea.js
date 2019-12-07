@@ -27,7 +27,8 @@ class TextArea extends React.Component {
                     value={this.state.text}
                     clearTextOnFocus = {true}
                     placeholderTextColor = '#DDDDDD'
-                    secureTextEntry = {this.props.isPassword}
+                    secureTextEntry = {this.props.placeHolder === "PIN" ? true : false}
+                    autoCapitalize = 'none'
                 />
             </View>
         );

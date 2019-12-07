@@ -6,6 +6,7 @@ export const ScreenDimension = {
 };
 
 export const Colors = {
+    pureWhite: '#FFFFFF',
     darkGrey: '#929292',
     lightBlue: '#388FDC',
     darkGreen: '#499B43'

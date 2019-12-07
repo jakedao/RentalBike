@@ -16,13 +16,10 @@ const LoginScreenStyle = StyleSheet.create({
     },
 
     formContainer: {
-        flex:2,
+        flex:4,
         justifyContent: 'center',
         alignItems: 'center',
-    }
-    
-
-    
+    },
 });
 
 export default LoginScreenStyle; 

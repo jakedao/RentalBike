@@ -1,8 +1,9 @@
 import React from "react";
-import { View, Text, TouchOpacity } from "react-native";
+import { View, Text, TouchableOpacity, TouchableWithoutFeedback, Keyboard } from "react-native";
 
 import TextArea from "../components/common/TextArea";
 import LoginScreenStyle from "../styles/LoginScreenStyle";
+import ButtonStyle from '../styles/common/ButtonStyle'
 
 class LoginScreen extends React.Component {
     constructor(props){
@@ -16,16 +17,19 @@ class LoginScreen extends React.Component {
     render() {
         return (
             <View style={LoginScreenStyle.wrapper}>
-                <View style={LoginScreenStyle.formContainer}>
-                    <Text style = {LoginScreenStyle.textHeader}> ECO PARK</Text>
-                    <TextArea placeHolder="Resident ID" />
-                    <TextArea placeHolder="PIN" isPassword={true} />
-                </View>
-                <View>
-                    <TouchOpacity
+                <TouchableWithoutFeedback onPress= {Keyboard.dismiss} accessible= {false}>
+                    <View style={LoginScreenStyle.formContainer}>
+                        <Text style = {LoginScreenStyle.textHeader}> ECO PARK</Text>
+                        <TextArea placeHolder="Resident ID" />
+                        <TextArea placeHolder="PIN"/>
+                    </View>
+                </TouchableWithoutFeedback>
+                <View style = {ButtonStyle.wrapper}>
+                    <TouchableOpacity
+                        style = {ButtonStyle.container}
                         onPress = {this.onPressNext}>
-                        <Text> NEXT </Text>
-                    </TouchOpacity>
+                        <Text style = {ButtonStyle.buttonText}> NEXT </Text>
+                    </TouchableOpacity>
                 </View>
             </View>
         );
