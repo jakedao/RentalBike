@@ -1,18 +1,31 @@
 import React from 'react';
-import {} from 'react-native';
+import { View, Text, Image } from 'react-native';
+
+import WelcomeScreenStyle from '../styles/WelcomScreenStyle' ;
+
+import CustomizedButton from '../components/common/CustomizedButton';
+
 
 class WelcomeScreen extends React.Component{
     constructor(props){
         super(props);
-
     }
+    
+    onTopUp = ()=> {
+        console.log('IMPLEMENTING')
+    };
+
     render(){
         return(
-            <View>
-                <Text>Welcome Khanh, Enjoy riding</Text>
+            <View style = {{flex:1, flexDirection:'column'}}>
+                <Text style = {WelcomeScreenStyle.welcomeMessage}> Welcome Khanh,</Text>
+                <Image source = {require('../assets/icons/balance.jpg')}/>
                 <Text>Current balance: 50.000 VDN</Text>
                 <Text>Find nearby bikes</Text>
-                <Text>TOP UP</Text>
+                <CustomizedButton
+                    onPressButton = {this.onTopUp}
+                    buttonTitle = 'TOP UP'
+                />
             </View>
 
         );

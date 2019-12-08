@@ -16,10 +16,17 @@ class App extends React.Component{
 const ApplicationNavigator = createStackNavigator(
   {
     LoginScreen: {
-          screen: LoginScreen
+          screen: LoginScreen,
+          navigationOptions: {
+            header: null,
+          }
       },
       WelcomeScreen: {
-          screen: WelcomeScreen
+          screen: WelcomeScreen,
+          navigationOptions : {
+            title: 'Welcome Screen',
+            headerLeft: null
+          }
       }
   }, 
   {
