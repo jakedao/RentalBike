@@ -11,7 +11,8 @@ class LoginScreen extends React.Component {
         super(props);
 
         onPressNext = () => {
-            console.log('DO NOTHING HERE')
+            console.log('Navigate to WelcomeScreen')
+            this.props.navigation.navigate('WelcomeScreen')
         };
     }
 
@@ -21,7 +22,6 @@ class LoginScreen extends React.Component {
                 resizeMode = 'cover'
                 style = {BackgroundStyle.main} 
                 source = {require('../assets/images/backgroundImage.jpg')}
-                //opacity = {4}
             >
                 <View style={LoginScreenStyle.wrapper}>
                     <TouchableWithoutFeedback onPress= {Keyboard.dismiss} accessible= {false}>
