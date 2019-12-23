@@ -19,7 +19,6 @@ class WelcomeScreen extends React.Component{
         return(
             <View style = {{flex:1, flexDirection:'column'}}>
                 <Text style = {WelcomeScreenStyle.welcomeMessage}> Welcome Khanh,</Text>
-                <Image source = {require('../assets/icons/balance.jpg')}/>
                 <Text>Current balance: 50.000 VDN</Text>
                 <Text>Find nearby bikes</Text>
                 <CustomizedButton

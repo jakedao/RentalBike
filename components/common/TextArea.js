@@ -1,34 +1,30 @@
 import React from 'react';
-import {TextInput, View} from 'react-native';
+import {TextInput, View,Text } from 'react-native';
+import PropTypes from 'prop-types';
 
 import {Padding, Height, Colors} from '../../styles/css/AppStyleConfig';
 import  TextAreaStyle from '../../styles/common/TextAreaStyle'
 
 class TextArea extends React.Component {
-    constructor(props){
-        super(props);
-        
-        this.state = {
-            text:''
-        }
- 
-        handleTextChange = (text) => {
-            this.setState({text})
-        };
-    }
+    static propTypes = {
+        value: PropTypes.string,
+        onChangeText: PropTypes.func
+      }
+
     render(){
+        const {value, onChangeText, ...extraProps} = this.props;
         return(
             <View style = {TextAreaStyle.container}>
                 <TextInput 
                     backgroundColor = {Colors.darkGrey}
                     style = {TextAreaStyle.textArea}
                     placeholder = {this.props.placeHolder}
-                    onChangeText={(text) => this.setState({text})}
-                    value={this.state.text}
-                    clearTextOnFocus = {true}
+                    onChangeText={this.props.onChangeText}
+                    value={this.props.value}
                     placeholderTextColor = '#DDDDDD'
                     secureTextEntry = {this.props.placeHolder === "PIN" ? true : false}
                     autoCapitalize = 'none'
+                    onKeyPress = {this.handleKeyPress}
                 />
             </View>
         );

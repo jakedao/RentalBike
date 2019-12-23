@@ -9,7 +9,8 @@ export const Colors = {
     pureWhite: '#FFFFFF',
     darkGrey: '#929292',
     lightBlue: '#388FDC',
-    darkGreen: '#499B43'
+    darkGreen: '#499B43',
+    errorText: '#C14B3B'
 
 };
 

@@ -13,14 +13,19 @@ const LoginScreenStyle = StyleSheet.create({
         fontSize: FontSize.Large,
         fontWeight: 'bold',
         color: Colors.darkGreen,
+        alignSelf: 'center'
     },
 
     formContainer: {
         flex:4,
         justifyContent: 'center',
-        alignItems: 'center',
-
     },
+
+    errorMessage: {
+        padding: Padding.Small,
+        color: Colors.errorText,
+        fontWeight: 'bold'
+    }
 });
 
 export default LoginScreenStyle; 
