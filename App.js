@@ -1,14 +1,19 @@
 import React from 'react';
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
+import {Provider} from 'react-redux';
 
 import LoginScreen from './components/LoginScreen';
 import WelcomeScreen from './components/WelcomeScreen';
+import store from './store';
+
 
 class App extends React.Component{
   render(){
     return(
-      <AppContainer/>
+      <Provider store = {store}>
+        <AppContainer/>
+      </Provider>
     );
   }
 }
